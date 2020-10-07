@@ -76,6 +76,7 @@ img {
 
 .accent {
   color: var(--blue);
+  
 }
 .header-logo {
   font-family: 'Raleway', sans-serif;
@@ -86,6 +87,11 @@ img {
 }
 
 .header-menu-link {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -117,6 +123,7 @@ img {
 
 .active {
   color: var(--blue);
+ 
 }
 
 .envelope-svg {
@@ -506,12 +513,6 @@ img {
   margin-right: 70px;
 }
 
-.right-footer {
-
-  /* outline: 2px solid tomato; */
-  
-
-}
 
 .right-footer h2 {
 
