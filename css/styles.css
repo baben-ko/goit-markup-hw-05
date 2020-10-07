@@ -696,7 +696,7 @@ img {
   margin-bottom: 0px;
 }
 
-.portfolio-item p {
+.portfolio-item .portfolio-category {
   margin-bottom: 0px;
   margin-top: 4px;
 }
@@ -707,6 +707,40 @@ img {
   padding-left: 24px;
   padding-right: 24px;
 }
+
+.img-wrapper-portfolio {
+
+  position: relative;
+}
+
+.overlay-portfolio {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 150, 243, 0.9);
+  margin: 0;
+  padding: 63px 24px;
+}
+
+.text-overlay-portfolio {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1.555;
+letter-spacing: 0.03em;
+color: var(--white);
+margin-top: 0px;
+margin-bottom: 0px;
+
+
+}
+
 /* ===========ЗАМЕТКА про ЦВЕТА ТЕКСТА================= */
 
 /* цвет лого 
