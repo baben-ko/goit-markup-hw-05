@@ -711,6 +711,7 @@ img {
 .img-wrapper-portfolio {
 
   position: relative;
+  overflow: hidden;
 }
 
 .overlay-portfolio {
@@ -724,6 +725,13 @@ img {
   background: rgba(33, 150, 243, 0.9);
   margin: 0;
   padding: 63px 24px;
+  transform: translateY(100%);
+  transition: all 250ms linear;
+
+  /* прячем оверлей */
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .text-overlay-portfolio {
@@ -737,6 +745,14 @@ letter-spacing: 0.03em;
 color: var(--white);
 margin-top: 0px;
 margin-bottom: 0px;
+}
+
+.portfolio-item:hover .overlay-portfolio {
+
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0%);
 
 
 }
