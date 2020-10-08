@@ -88,7 +88,7 @@ img {
 
 .header-menu-link {
   display: block;
-  padding-bottom: 32px;
+  padding-bottom: 33px;
   padding-top: 32px;
 
   
@@ -137,6 +137,26 @@ img {
 .link-color-header {
   display: flex;
   align-items: center;
+}
+
+
+
+.header-menu-item .active::after {
+  content: "";
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  background: #2196F3;
+  border-radius: 2px;
+
+}
+
+.header-menu-item {
+
+  position: relative;
 }
 
 /* ====================== HERO ========================= */
