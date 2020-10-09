@@ -11,6 +11,7 @@
 body {
   font-family: 'Roboto', sans-serif; /* основной шрифт */
   font-style: normal;
+  
 }
 
 a {
@@ -50,22 +51,36 @@ img {
   background-color: rgba(0, 0, 0, 0.2);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+  
 
 }
 
 .modal {
-  position: absolute;
-  top: 50%;
+  
+  position: relative;
+  top: 0%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 528px;
+  transform: translate(-50%, 0%); 
+  max-width: 528px;
   height: 581px;
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  /* margin-top: 15px; */
   
+  
+ }
 
-}
+ /* .modal-open {
+  overflow: hidden;
+  } */
+
+
+
 
 .close-btn {
   position: absolute;
@@ -77,6 +92,7 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+  
 }
 
 .is-hidden {
@@ -85,6 +101,7 @@ img {
   visibility: hidden;
   pointer-events: none;
 }
+
 /* ================== HEADER ======================*/
 .container-flex-header {
   display: flex;
