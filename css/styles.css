@@ -52,10 +52,10 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   overflow-y: auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
   
   
 
