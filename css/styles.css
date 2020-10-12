@@ -458,7 +458,6 @@ margin: 0 auto;
   height: 44px;
   /* outline: 2px solid tomato; */
   border-radius: 50%;
-  /* background-color: yellowgreen; */
   fill: #AFB1B8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
